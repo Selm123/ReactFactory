@@ -22,7 +22,7 @@ new_contents = "
 function App() {
   return (
     <div className='App'>
-     <h1>Hello React #{app_name}</h1>
+     <h1>#{app_name} Coming soon</h1>
     </div>
   );
 }
