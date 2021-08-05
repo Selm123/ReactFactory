@@ -31,4 +31,12 @@ export default App;
 "
 File.open("Projects/#{app_name}/src/components/App.js", 'w') { |file| file.puts new_contents }
 
-`cd Projects/#{app_name} && npm start`
+print 'Start the server? (y/n)'
+
+response = gets.chomp
+
+if response == "y"
+  `cd Projects/#{app_name} && npm start`
+end
+
+
